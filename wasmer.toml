@@ -1,0 +1,14 @@
+[package]
+name = "gwjessica/time-manager"
+version = "0.1.0"
+description = "Intelligent Academic & Activity Time-Manager"
+
+[dependencies]
+
+[[command]]
+name = "run"
+module = "wasmer/node"
+runner = "https://webc.org/runner/node"
+
+[app]
+name = "time-manager"
